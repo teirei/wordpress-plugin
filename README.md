@@ -1,7 +1,7 @@
 # Shortcodes by Angie Makes - remake #
 
 **Contributors:** cbaldelomar  
-**Remaker:** Tei Rei
+**Remaker:** Tei Rei  
 **Tags:** shortcode, shortcodes, accordion, accordions, tab, tabs, toggle, columns, column, section, sections, testimonials, border, borders, button, buttons, fullwidth, full width, notification, notifications, google maps, maps, googlemaps, social icons, progress bar, pricing, pricing box, highlights, image, flags, banners, countdown, rsvp, custom html, code, code snippets, snippets, isotope, masonry, posts, post_type, post slider, slider, font awesome, icons, fontawesome, fa, box, heading, inline code, divider, spacing, grid, center content, center, icons, image flag, image flags  
 **Requires at least:** 3.7  
 **Tested up to:** 4.7.3  
