@@ -4,15 +4,22 @@
 		<?php if ( $display['show_thumbnail'] && has_post_thumbnail() && ! post_password_required() ) : ?>
 			<div class="wc-shortcodes-entry-thumbnail">
 				<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( $display['size'] ); ?></a>
+
+				<?php if ( $display['show_title'] ) : ?>
+					<div class="wc-shortcodes-entry-title">
+						<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+					</div>
+				<?php endif; ?>
+
 			</div>
 		<?php endif; ?>
 
-		<?php if ( $display['show_title'] ) : ?>
+<!-- 		<?php if ( $display['show_title'] ) : ?>
 			<<?php echo $display['heading_type']; ?> class="wc-shortcodes-entry-title">
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 			</<?php echo $display['heading_type']; ?>>
 		<?php endif; ?>
-
+ -->
 		<?php if ( $display['show_content'] ) : ?>
 		<div class="wc-shortcodes-entry-summary">
 			<?php wc_shortcodes_the_excerpt(); ?>
