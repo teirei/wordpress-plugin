@@ -1448,6 +1448,10 @@ pre.pre-wrap {
 	width: 96%;
 	background: #33333355;
 }
+.wc-shortcodes-entry-title > a {
+	color:#ffffff;
+}
+
 .wc-shortcodes-entry-meta {
 	margin-top: 20px;
 	margin-bottom: 0;
