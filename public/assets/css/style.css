@@ -1448,6 +1448,13 @@ pre.pre-wrap {
 	width: 96%;
 	background: #33333355;
 }
+.wc-shortcodes-entry-thumbnail img{
+	position:relative;
+	z-index: 3;
+}
+.wc-shortcodes-entry-thumbnail img:hover{
+	z-index: 1;
+}
 .wc-shortcodes-entry-title > a {
 	color:#ffffff;
 }
