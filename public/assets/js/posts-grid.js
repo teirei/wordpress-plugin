@@ -51,5 +51,13 @@
 
 		return false;
 	});
+	
+	var $thumnail = $('.wc-shortcodes-entry-thumbnail');
+	$thumnail.mouseover(function(){
+    	$(this).children('.wc-shortcodes-entry-title').css("display", "block");
+	}); 
+	$thumnail.mouseout(function(){
+    	$(this).children('.wc-shortcodes-entry-title').css("display", "none");
+	}); 
 
 } )( jQuery );

@@ -14,7 +14,7 @@ if ( $wc_shortcodes_posts_query->max_num_pages < 2 )
 				'total' => $wc_shortcodes_posts_query->max_num_pages,
 				'current' => max( 1, $wc_shortcodes_posts_query->get('paged') ),
 				'show_all' => false,
-				'prev_next' => true,
+				'prev_next' => false,
 				'prev_text' => __('Previous Page'),
 				'next_text' => __('Next Page'),
 				'end_size' => 2,
